@@ -14,6 +14,18 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		95C02093DFD2AE544FC6074A /* Pods_SystemEye_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024257553D44398B285EC809 /* Pods_SystemEye_Tests.framework */; };
+		9E24FACF1E8132CA001AD0D7 /* SystemEye.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E24FACD1E8132CA001AD0D7 /* SystemEye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E24FAD21E8132CA001AD0D7 /* SystemEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E24FACB1E8132CA001AD0D7 /* SystemEye.framework */; };
+		9E24FAD31E8132CA001AD0D7 /* SystemEye.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E24FACB1E8132CA001AD0D7 /* SystemEye.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E24FAE91E8132EF001AD0D7 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FADD1E8132EF001AD0D7 /* CPU.swift */; };
+		9E24FAEA1E8132EF001AD0D7 /* FPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FADE1E8132EF001AD0D7 /* FPS.swift */; };
+		9E24FAEB1E8132EF001AD0D7 /* Hardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FADF1E8132EF001AD0D7 /* Hardware.swift */; };
+		9E24FAEC1E8132EF001AD0D7 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FAE01E8132EF001AD0D7 /* Memory.swift */; };
+		9E24FAED1E8132EF001AD0D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FAE11E8132EF001AD0D7 /* Network.swift */; };
+		9E24FAEE1E8132EF001AD0D7 /* NetworkFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FAE21E8132EF001AD0D7 /* NetworkFlow.swift */; };
+		9E24FAEF1E8132EF001AD0D7 /* NetObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E24FAE41E8132EF001AD0D7 /* NetObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E24FAF01E8132EF001AD0D7 /* NetObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FAE51E8132EF001AD0D7 /* NetObjc.m */; };
+		9E24FAF11E8132EF001AD0D7 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24FAE61E8132EF001AD0D7 /* System.swift */; };
 		CB65EAFFC64B1AF9AF0AA51E /* Pods_SystemEye_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A1373284687036A87FB38 /* Pods_SystemEye_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +37,28 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = SystemEye;
 		};
+		9E24FAD01E8132CA001AD0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E24FACA1E8132CA001AD0D7;
+			remoteInfo = SystemEye;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E24FAD71E8132CA001AD0D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E24FAD31E8132CA001AD0D7 /* SystemEye.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		024257553D44398B285EC809 /* Pods_SystemEye_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SystemEye_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +76,18 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C7B2BFBBC3DA726548E1AD6 /* Pods-SystemEye_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemEye_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SystemEye_Tests/Pods-SystemEye_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E24FACB1E8132CA001AD0D7 /* SystemEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SystemEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E24FACD1E8132CA001AD0D7 /* SystemEye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemEye.h; sourceTree = "<group>"; };
+		9E24FACE1E8132CA001AD0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E24FADD1E8132EF001AD0D7 /* CPU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
+		9E24FADE1E8132EF001AD0D7 /* FPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPS.swift; sourceTree = "<group>"; };
+		9E24FADF1E8132EF001AD0D7 /* Hardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hardware.swift; sourceTree = "<group>"; };
+		9E24FAE01E8132EF001AD0D7 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		9E24FAE11E8132EF001AD0D7 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9E24FAE21E8132EF001AD0D7 /* NetworkFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFlow.swift; sourceTree = "<group>"; };
+		9E24FAE41E8132EF001AD0D7 /* NetObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetObjc.h; sourceTree = "<group>"; };
+		9E24FAE51E8132EF001AD0D7 /* NetObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetObjc.m; sourceTree = "<group>"; };
+		9E24FAE61E8132EF001AD0D7 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		CF2465B179DE0365AE0CDFAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2A5156B64F06E499083A3A2 /* SystemEye.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SystemEye.podspec; path = ../SystemEye.podspec; sourceTree = "<group>"; };
 		FAE3212067D5B3B1598AFAFA /* Pods-SystemEye_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemEye_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SystemEye_Tests/Pods-SystemEye_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB65EAFFC64B1AF9AF0AA51E /* Pods_SystemEye_Example.framework in Frameworks */,
+				9E24FAD21E8132CA001AD0D7 /* SystemEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				95C02093DFD2AE544FC6074A /* Pods_SystemEye_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E24FAC71E8132CA001AD0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +137,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SystemEye */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				9E24FACC1E8132CA001AD0D7 /* SystemEye */,
 				607FACD11AFB9204008FA782 /* Products */,
 				6B3FC26EED4C4C8321C105A6 /* Pods */,
 				352EF9046A923D0E21ADF89C /* Frameworks */,
@@ -95,6 +149,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* SystemEye_Example.app */,
 				607FACE51AFB9204008FA782 /* SystemEye_Tests.xctest */,
+				9E24FACB1E8132CA001AD0D7 /* SystemEye.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,7 +214,62 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9E24FACC1E8132CA001AD0D7 /* SystemEye */ = {
+			isa = PBXGroup;
+			children = (
+				9E24FAD81E8132EF001AD0D7 /* SystemEye */,
+				9E24FACD1E8132CA001AD0D7 /* SystemEye.h */,
+				9E24FACE1E8132CA001AD0D7 /* Info.plist */,
+			);
+			path = SystemEye;
+			sourceTree = "<group>";
+		};
+		9E24FAD81E8132EF001AD0D7 /* SystemEye */ = {
+			isa = PBXGroup;
+			children = (
+				9E24FADB1E8132EF001AD0D7 /* Classes */,
+			);
+			name = SystemEye;
+			path = ../../SystemEye;
+			sourceTree = "<group>";
+		};
+		9E24FADB1E8132EF001AD0D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E24FADD1E8132EF001AD0D7 /* CPU.swift */,
+				9E24FADE1E8132EF001AD0D7 /* FPS.swift */,
+				9E24FADF1E8132EF001AD0D7 /* Hardware.swift */,
+				9E24FAE01E8132EF001AD0D7 /* Memory.swift */,
+				9E24FAE11E8132EF001AD0D7 /* Network.swift */,
+				9E24FAE21E8132EF001AD0D7 /* NetworkFlow.swift */,
+				9E24FAE31E8132EF001AD0D7 /* OCBridge */,
+				9E24FAE61E8132EF001AD0D7 /* System.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E24FAE31E8132EF001AD0D7 /* OCBridge */ = {
+			isa = PBXGroup;
+			children = (
+				9E24FAE41E8132EF001AD0D7 /* NetObjc.h */,
+				9E24FAE51E8132EF001AD0D7 /* NetObjc.m */,
+			);
+			path = OCBridge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E24FAC81E8132CA001AD0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E24FAEF1E8132EF001AD0D7 /* NetObjc.h in Headers */,
+				9E24FACF1E8132CA001AD0D7 /* SystemEye.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* SystemEye_Example */ = {
@@ -172,10 +282,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				049AB436E2AFEAB01D1ED343 /* [CP] Embed Pods Frameworks */,
 				9110D1B9346D223B812C8312 /* [CP] Copy Pods Resources */,
+				9E24FAD71E8132CA001AD0D7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E24FAD11E8132CA001AD0D7 /* PBXTargetDependency */,
 			);
 			name = SystemEye_Example;
 			productName = SystemEye;
@@ -203,6 +315,24 @@
 			productReference = 607FACE51AFB9204008FA782 /* SystemEye_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9E24FACA1E8132CA001AD0D7 /* SystemEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E24FAD61E8132CA001AD0D7 /* Build configuration list for PBXNativeTarget "SystemEye" */;
+			buildPhases = (
+				9E24FAC61E8132CA001AD0D7 /* Sources */,
+				9E24FAC71E8132CA001AD0D7 /* Frameworks */,
+				9E24FAC81E8132CA001AD0D7 /* Headers */,
+				9E24FAC91E8132CA001AD0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemEye;
+			productName = SystemEye;
+			productReference = 9E24FACB1E8132CA001AD0D7 /* SystemEye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +352,10 @@
 						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					9E24FACA1E8132CA001AD0D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SystemEye" */;
@@ -239,6 +373,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* SystemEye_Example */,
 				607FACE41AFB9204008FA782 /* SystemEye_Tests */,
+				9E24FACA1E8132CA001AD0D7 /* SystemEye */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +390,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E24FAC91E8132CA001AD0D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +516,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E24FAC61E8132CA001AD0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E24FAEE1E8132EF001AD0D7 /* NetworkFlow.swift in Sources */,
+				9E24FAED1E8132EF001AD0D7 /* Network.swift in Sources */,
+				9E24FAEC1E8132EF001AD0D7 /* Memory.swift in Sources */,
+				9E24FAEB1E8132EF001AD0D7 /* Hardware.swift in Sources */,
+				9E24FAF11E8132EF001AD0D7 /* System.swift in Sources */,
+				9E24FAE91E8132EF001AD0D7 /* CPU.swift in Sources */,
+				9E24FAF01E8132EF001AD0D7 /* NetObjc.m in Sources */,
+				9E24FAEA1E8132EF001AD0D7 /* FPS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -381,6 +538,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* SystemEye_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		9E24FAD11E8132CA001AD0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E24FACA1E8132CA001AD0D7 /* SystemEye */;
+			targetProxy = 9E24FAD01E8132CA001AD0D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 575BA952EEE14F2397E838A0 /* Pods-SystemEye_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SystemEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -504,6 +667,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48F1D213771D208E37D2D87A /* Pods-SystemEye_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SystemEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -550,6 +714,63 @@
 			};
 			name = Release;
 		};
+		9E24FAD41E8132CA001AD0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SystemEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.SystemEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E24FAD51E8132CA001AD0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SystemEye/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zixun.SystemEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +800,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9E24FAD61E8132CA001AD0D7 /* Build configuration list for PBXNativeTarget "SystemEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E24FAD41E8132CA001AD0D7 /* Debug */,
+				9E24FAD51E8132CA001AD0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
