@@ -1,9 +1,9 @@
 # SystemEye
 
-[![CI Status](http://img.shields.io/travis/zixun/SystemEye.svg?style=flat)](https://travis-ci.org/zixun/SystemEye)
 [![Version](https://img.shields.io/cocoapods/v/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
 [![License](https://img.shields.io/cocoapods/l/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
 [![Platform](https://img.shields.io/cocoapods/p/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
 
 SystemEye is a system monitor,automatic catch the infomation of cpu,memory,fps,netflow....etc.
 
@@ -22,11 +22,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
 SystemEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "SystemEye"
+```
+
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+
+``` 
+github "zixun/SystemEye"
 ```
 
 ## Author
