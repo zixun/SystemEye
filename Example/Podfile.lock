@@ -1,5 +1,5 @@
 PODS:
-  - SystemEye (0.1.0)
+  - SystemEye (0.2.2)
 
 DEPENDENCIES:
   - SystemEye (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SystemEye: 4696d336ca80ae08b91dda84b15c47460b332c93
+  SystemEye: 1786da68a0dc869cb0b203eb8eec62aac5c2025b
 
 PODFILE CHECKSUM: 91d4840090c988b9224eb1317c42eae41e1c9a03
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.0
